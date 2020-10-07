@@ -1,0 +1,24 @@
+{
+  "name": "TestLecturesModules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olkovalyshyn/TestLecturesModules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olkovalyshyn/TestLecturesModules/issues"
+  },
+  "homepage": "https://github.com/olkovalyshyn/TestLecturesModules#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
