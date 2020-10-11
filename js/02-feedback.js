@@ -16,6 +16,7 @@ function onFormSubmit(evt) {
     
     console.log('Відправляємо форму');
     evt.currentTarget.reset();
+    localStorage.removeItem('feedback-msg');
 };
 
 function onTextareaInput(evt) { 
@@ -29,5 +30,6 @@ function populateTextarea() {
 
     if (savedMessage) {
         console.log("Там щось є: ", savedMessage);
+        refs.textarea.value = savedMessage;
     }
  };
